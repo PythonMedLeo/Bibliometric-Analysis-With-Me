@@ -1,8 +1,5 @@
-##系统报错改为英文
 Sys.setenv(LANGUAGE = "en")
-##禁止转化为因子
 options(stringsAsFactors = FALSE)
-##清空环境
 rm(list=ls())
 setwd('/Users/leoarrow/Desktop/20世纪葡萄膜炎/RawData/2018-2022')
 library(bibliometrix)
